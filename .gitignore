@@ -1,0 +1,30 @@
+# CLIENT
+# dependencies
+/client/node_modules
+# testing
+client/coverage
+# production
+client/build
+# misc
+client/.DS_Store
+client/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# API
+# Ignore bundler config.
+/.bundle
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+.byebug_history
