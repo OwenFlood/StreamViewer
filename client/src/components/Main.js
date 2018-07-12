@@ -14,7 +14,7 @@ export default class Main extends React.Component {
     // In the interest of time, I wrote a quick
     // router. I would normally use a library like
     // ReactNavigation.
-    if (!this.props.currentUser) {
+    if (!this.props.currentUser.w3) {
       return (
         <button onClick={this.logIn} className="App-intro">
           Please log in with Google+
@@ -24,7 +24,7 @@ export default class Main extends React.Component {
     
     switch (window.location.hash) {
       case '#home':
-        return <Home />
+        return <Home currentUser={this.props.currentUser} />
         break;
       default:
         console.log("BYE");
@@ -32,6 +32,6 @@ export default class Main extends React.Component {
   }
   
   logIn = () => {
-    this.GoogleAuth.signIn()
+    this.props.googleAuth.signIn()
   }
 }

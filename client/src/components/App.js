@@ -4,15 +4,11 @@ import { Navbar } from 'react-bootstrap'
 import Main from './Main'
 
 export default class App extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      loading: true,
-      isSignedIn: false,
-      currentUser: null,
-      locationChange: true, // this state is just to trigger reload on location change
-    }
-    this.GoogleAuth;
+  state = {
+    loading: true,
+    isSignedIn: false,
+    currentUser: null,
+    locationChange: true, // this state is just to trigger reload on location change
   }
 
   componentDidMount() {
@@ -43,7 +39,10 @@ export default class App extends React.Component {
   renderMain = () => (
     this.state.loading ?
       <div>I'm loading!</div> :
-      <Main key={this.state.locationChange} currentUser={this.state.currentUser} />
+      <Main
+        key={this.state.locationChange}
+        googleAuth={this.state.googleAuth}
+        currentUser={this.state.currentUser} />
   )
   
   initGapi = () => {
@@ -64,15 +63,17 @@ export default class App extends React.Component {
   initClient = () => {
     // send tokens to google to initialize
     window.gapi.client.init({
-      'apiKey': process.env.REACT_APP_API_KEY,
-      'clientId': process.env.REACT_APP_CLIENT_ID,
-      'scope': 'https://www.googleapis.com/auth/drive.metadata.readonly',
+      apiKey: process.env.REACT_APP_API_KEY,
+      clientId: process.env.REACT_APP_OAUTH_CLIENT_ID,
+      scope: 'https://www.googleapis.com/auth/youtube.force-ssl',
+      discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest']
     }).then(() => {
-      this.GoogleAuth = window.gapi.auth2.getAuthInstance();
-      this.GoogleAuth.isSignedIn.listen(this.updateSigninStatus);
+      let googleAuth = window.gapi.auth2.getAuthInstance();
+      googleAuth.isSignedIn.listen(this.updateSigninStatus);
       this.setState({
         loading: false,
-        currentUser: this.GoogleAuth.currentUser.get(),
+        currentUser: googleAuth.currentUser.get(),
+        googleAuth,
       })
     })
   }
