@@ -1,7 +1,8 @@
 import React from 'react'
 import Home from './Home'
+import Watch from './Watch'
 
-export default class Main extends React.Component {
+export default class Router extends React.Component {
   render() {
     return (
       <div>
@@ -21,11 +22,12 @@ export default class Main extends React.Component {
         </button>
       )
     }
-    
-    switch (window.location.hash) {
-      case '#home':
+
+    switch (window.location.pathname) {
+      case '/home':
         return <Home currentUser={this.props.currentUser} />
-        break;
+      case '/watch':
+        return <Watch currentUser={this.props.currentUser} />
       default:
         console.log("BYE");
     }

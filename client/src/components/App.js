@@ -1,7 +1,8 @@
 import React from 'react'
 import '../styles/App.css'
 import { Navbar } from 'react-bootstrap'
-import Main from './Main'
+import _get from 'lodash/get'
+import Router from './Router'
 
 export default class App extends React.Component {
   state = {
@@ -25,10 +26,11 @@ export default class App extends React.Component {
         <Navbar>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="#home">
+              <a href="/home">
                 StreamViewer
               </a>
             </Navbar.Brand>
+            {_get('this.state.currentUser', 'w3.ig')}
           </Navbar.Header>
         </Navbar>
         {this.renderMain()}
@@ -39,7 +41,7 @@ export default class App extends React.Component {
   renderMain = () => (
     this.state.loading ?
       <div>I'm loading!</div> :
-      <Main
+      <Router
         key={this.state.locationChange}
         googleAuth={this.state.googleAuth}
         currentUser={this.state.currentUser} />

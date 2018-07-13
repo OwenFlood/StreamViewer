@@ -1,4 +1,11 @@
 import React from 'react'
+import {
+  Grid,
+  Row,
+  Col,
+  Image,
+  PageHeader,
+} from 'react-bootstrap'
 
 export default class Home extends React.Component {
   state = {
@@ -11,37 +18,57 @@ export default class Home extends React.Component {
 
   render() {
     return (
-      <div>
-        Hello {this.props.currentUser.w3.ig}.
+      <Grid>
+        <PageHeader style={{textAlign: 'left'}}>
+          {/* <span className="live-circle" /> */}
+          Currently Live
+        </PageHeader>
         {this.renderVideos()}
-      </div>
+      </Grid>
     )
   }
   
   renderVideos = () => {
     console.log(this.state.videos);
     return this.state.videos.map(({ id, snippet }) => (
-      <div key={id.videoId}>
-        <div>
-          {snippet.title}
-        </div>
-        <div>
-          <img
-            width={snippet.thumbnails.medium.width}
-            height={snippet.thumbnails.medium.height}
-            src={snippet.thumbnails.medium.url} />
-        </div>
-      </div>
+      <Row key={id.videoId} className="show-grid">
+        <Col xs={12} md={4}>
+          <Image
+            responsive
+            src={snippet.thumbnails.medium.url}
+          />
+        </Col>
+        <Col xs={12} md={4}>
+          <div style={{ textAlign: 'left' }}>
+            <div style={{ fontSize: 20, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+              <a href={`/watch?id=${id.videoId}`}>
+                <strong>{snippet.title}</strong>
+              </a>
+            </div>
+            <div>
+              Channel: <span style={{ fontWeight: 300 }}>{snippet.channelTitle}</span>
+            </div>
+            Description: <span style={{ fontWeight: 300 }}>{snippet.description}</span>
+          </div>
+        </Col>
+        <Col xs={12} md={4} />
+        {/* <iframe
+          width="420"
+          height="315"
+          src={`https://www.youtube.com/embed/${id.videoId}`}
+        /> */}
+      </Row>
     ))
   }
   
   getYouTubeLiveStreams = () => {
     // load the youtube api into the gapi client
-    window.gapi.client.load('youtube', 'v3', (hi) => {
+    window.gapi.client.load('youtube', 'v3', (response) => {
+      console.log(response);
       // after the client is loaded, execute the search
       const searchRequest = window.gapi.client.youtube.search.list({
         part: 'snippet',
-        maxResults: '10',
+        maxResults: '3',
         type: 'video',
         eventType: 'live',
       })
