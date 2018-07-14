@@ -8,8 +8,12 @@ import {
 } from 'react-bootstrap'
 
 export default class Home extends React.Component {
-  state = {
-    videos: [],
+  constructor(props) {
+    super(props)
+    this.state = {
+      videos: [],
+    }
+    this.streamId = window.location.search.split('=')[1]
   }
 
   componentDidMount() {
@@ -20,22 +24,45 @@ export default class Home extends React.Component {
     return (
       <Grid>
         <PageHeader style={{textAlign: 'left'}}>
-          Your Video
+          Your Stream
         </PageHeader>
         <iframe
           width="420"
           height="315"
-          src={`https://www.youtube.com/embed/${window.location.search.split('=')[1]}`}
+          src={`https://www.youtube.com/embed/${this.streamId}`}
         />
       </Grid>
     )
   }
   
   getCurrentLiveStream = () => {
-    if (!window.gapi.client.youtube) {
+    const youtubeApi = window.gapi.client.youtube
+    console.log('1', youtubeApi);
+    if (!youtubeApi) {
       this.loadYoutubeApi()
       return
     }
+    // debugger
+    
+    const currentStream = window.gapi.client.youtube.videos.list({
+      part: 'liveStreamingDetails',
+      id: this.streamId,
+    })
+    currentStream.execute(({ items: videos }) => {
+      const chatId = videos[0].liveStreamingDetails.activeLiveChatId
+
+      const chatMessages = window.gapi.client.youtube.liveChatMessages.list({
+        part: 'snippet',
+        liveChatId: chatId,
+      })
+      chatMessages.execute((messages) => {
+        // I need to use nextPageToken and pollingIntervalMillis
+        // to continueously hit the server for constant updates
+        // on the chat
+        debugger
+      })
+    })
+    
 
     // const searchRequest = window.gapi.client.youtube.search.list({
     //   part: 'snippet',
