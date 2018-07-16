@@ -18,13 +18,13 @@ client/yarn-error.log*
 
 # API
 # Ignore bundler config.
-/.bundle
+api/.bundle
 # Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
+api/db/*.sqlite3
+api/db/*.sqlite3-journal
 # Ignore all logfiles and tempfiles.
-/log/*
-/tmp/*
-!/log/.keep
-!/tmp/.keep
-.byebug_history
+api/log/*
+api/tmp/*
+!api/log/.keep
+!api/tmp/.keep
+api/.byebug_history

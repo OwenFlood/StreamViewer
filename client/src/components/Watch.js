@@ -12,12 +12,13 @@ export default class Home extends React.Component {
     super(props)
     this.state = {
       videos: [],
+      chatMessages: [],
     }
     this.streamId = window.location.search.split('=')[1]
   }
 
   componentDidMount() {
-    this.getCurrentLiveStream()
+    this.listenToLiveChat()
   }
 
   render() {
@@ -31,13 +32,15 @@ export default class Home extends React.Component {
           height="315"
           src={`https://www.youtube.com/embed/${this.streamId}`}
         />
+        {this.state.chatMessages.map((message) => (
+          <div>{message}</div>
+        ))}
       </Grid>
     )
   }
   
-  getCurrentLiveStream = () => {
+  listenToLiveChat = () => {
     const youtubeApi = window.gapi.client.youtube
-    console.log('1', youtubeApi);
     if (!youtubeApi) {
       this.loadYoutubeApi()
       return
@@ -55,11 +58,15 @@ export default class Home extends React.Component {
         part: 'snippet',
         liveChatId: chatId,
       })
-      chatMessages.execute((messages) => {
+      chatMessages.execute(({ items }) => {
+        const messages = items.map(({ snippet }) => (
+          snippet.displayMessage
+        ))
+        this.setState({ chatMessages: this.state.chatMessages.concat(messages) })
         // I need to use nextPageToken and pollingIntervalMillis
         // to continueously hit the server for constant updates
         // on the chat
-        debugger
+        // debugger
       })
     })
     
