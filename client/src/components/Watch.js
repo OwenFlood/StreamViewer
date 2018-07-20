@@ -8,6 +8,7 @@ import {
   FormControl,
   Alert,
 } from 'react-bootstrap'
+import Api from '../Api'
 
 export default class Home extends React.Component {
   constructor(props) {
@@ -80,11 +81,17 @@ export default class Home extends React.Component {
         },
       },
     })
-    sendMessage.execute((response) => {
-      if (response.error) {
-        this.setState({ error: response.error })
-      }
+    Api.saveSentMessage({
+      message: this.state.message,
+      currentUser: this.props.currentUser,
     })
+    // sendMessage.execute((response) => {
+    //   if (response.error) {
+    //     this.setState({ error: response.error })
+    //     return
+    //   }
+    //   Api.saveSentMessage(this.state.message)
+    // })
     
     
     this.setState({ message: '' })
