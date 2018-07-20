@@ -76,7 +76,7 @@ export default class Home extends React.Component {
         liveChatId: this.state.currentChatId,
         type: 'textMessageEvent',
         textMessageDetails: {
-          // messageText: this.state.message,
+          messageText: this.state.message,
         },
       },
     })
