@@ -1,10 +1,12 @@
 import React from 'react'
+import '../styles/Watch.css'
 import {
   Grid,
   Row,
   Col,
-  Image,
   PageHeader,
+  FormControl,
+  Alert,
 } from 'react-bootstrap'
 
 export default class Home extends React.Component {
@@ -13,12 +15,15 @@ export default class Home extends React.Component {
     this.state = {
       videos: [],
       chatMessages: [],
+      message: '',
+      currentChatId: null,
+      error: false,
     }
     this.streamId = window.location.search.split('=')[1]
   }
 
   componentDidMount() {
-    this.listenToLiveChat()
+    this.getCurrentLiveStream()
   }
 
   render() {
@@ -27,59 +32,117 @@ export default class Home extends React.Component {
         <PageHeader style={{textAlign: 'left'}}>
           Your Stream
         </PageHeader>
-        <iframe
-          width="420"
-          height="315"
-          src={`https://www.youtube.com/embed/${this.streamId}`}
-        />
-        {this.state.chatMessages.map((message) => (
-          <div>{message}</div>
-        ))}
+        {this.state.error && (<Alert bsStyle="warning">Something Went Wrong</Alert>)}
+        <Row>
+          <Col xs={12} md={6}>
+            <iframe
+              width="420"
+              height="315"
+              src={`https://www.youtube.com/embed/${this.streamId}`}
+            />
+          </Col>
+          <Col className="well" style={{ textAlign: 'left' }} xs={12} md={6}>
+            <h3><strong>Live Chat</strong></h3>
+            <ul id="live-chat">
+              {this.renderChatMessages()}
+            </ul>
+            <form onSubmit={this.sendChatMessage}>
+              <FormControl
+                type="text"
+                value={this.state.message}
+                placeholder="Type in Chat"
+                onChange={({ target: { value } }) => this.setState({ message: value })}
+              />
+            </form>
+          </Col>
+        </Row>
       </Grid>
     )
   }
   
-  listenToLiveChat = () => {
+  renderChatMessages = () => (
+    this.state.chatMessages.map(({ author, message }, index) => (
+      <div key={index}>
+        <span style={{ fontWeight: 300 }}>{author}</span>: {message}
+      </div>
+    ))
+  )
+  
+  sendChatMessage = (e) => {
+    e.preventDefault()
+    const sendMessage = window.gapi.client.youtube.liveChatMessages.insert({
+      part: 'snippet',
+      snippet: {
+        liveChatId: this.state.currentChatId,
+        type: 'textMessageEvent',
+        textMessageDetails: {
+          // messageText: this.state.message,
+        },
+      },
+    })
+    sendMessage.execute((response) => {
+      if (response.error) {
+        this.setState({ error: response.error })
+      }
+    })
+    
+    
+    this.setState({ message: '' })
+  }
+  
+  listenToChatScroll = () => {
+    // scroll chat window to bottom when new messages appear
+    // ideally this would only happen when the scroll is
+    // already at the bottom (like most live chats)
+    let chat = document.getElementById('live-chat')
+    chat.scrollTop = chat.scrollHeight
+  }
+  
+  getCurrentLiveStream = () => {
     const youtubeApi = window.gapi.client.youtube
     if (!youtubeApi) {
+      // if the youtube api is not currently loaded,
+      // the function below loads it and calls this function
       this.loadYoutubeApi()
       return
     }
-    // debugger
     
+    // fetching the live stream object
     const currentStream = window.gapi.client.youtube.videos.list({
       part: 'liveStreamingDetails',
       id: this.streamId,
     })
     currentStream.execute(({ items: videos }) => {
-      const chatId = videos[0].liveStreamingDetails.activeLiveChatId
-
-      const chatMessages = window.gapi.client.youtube.liveChatMessages.list({
-        part: 'snippet',
-        liveChatId: chatId,
-      })
-      chatMessages.execute(({ items }) => {
-        const messages = items.map(({ snippet }) => (
-          snippet.displayMessage
-        ))
-        this.setState({ chatMessages: this.state.chatMessages.concat(messages) })
-        // I need to use nextPageToken and pollingIntervalMillis
-        // to continueously hit the server for constant updates
-        // on the chat
-        // debugger
+      // save the chatId for fetching, then begin live chat loop
+      this.setState({
+        currentChatId: videos[0].liveStreamingDetails.activeLiveChatId,
+      }, this.listenToLiveChat)
+    })
+  }
+  
+  listenToLiveChat = (pageToken) => {
+    // fetching the chat messages
+    const chatMessages = window.gapi.client.youtube.liveChatMessages.list({
+      part: 'snippet,authorDetails',
+      liveChatId: this.state.currentChatId,
+      maxResults: 200,
+      pageToken,
+    })
+    chatMessages.execute(({ items, nextPageToken, pollingIntervalMillis }) => {
+      const messages = items.map(({ snippet, authorDetails }) => ({
+        message: snippet.displayMessage,
+        author: authorDetails.displayName,
+      }))
+      this.setState({
+        chatMessages: this.state.chatMessages.concat(messages),
+      }, () => {
+        // set delay before calling recursively.
+        setTimeout(() => {
+          this.listenToLiveChat(nextPageToken)
+        }, pollingIntervalMillis);
+        this.listenToChatScroll()
       })
     })
-    
-
-    // const searchRequest = window.gapi.client.youtube.search.list({
-    //   part: 'snippet',
-    //   maxResults: '3',
-    //   type: 'video',
-    //   eventType: 'live',
-    // })
-    // searchRequest.execute(({ items: videos }) => {
-    //   this.setState({ videos })
-    // })
   }
   
   loadYoutubeApi = () => {

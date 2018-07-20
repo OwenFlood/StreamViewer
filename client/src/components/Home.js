@@ -20,16 +20,14 @@ export default class Home extends React.Component {
     return (
       <Grid>
         <PageHeader style={{textAlign: 'left'}}>
-          {/* <span className="live-circle" /> */}
           Currently Live
         </PageHeader>
         {this.renderVideos()}
       </Grid>
     )
   }
-  
+   
   renderVideos = () => {
-    console.log(this.state.videos);
     return this.state.videos.map(({ id, snippet }) => (
       <Row key={id.videoId} className="show-grid">
         <Col xs={12} md={4}>
