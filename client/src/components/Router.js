@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from './Home'
 import Watch from './Watch'
+import Api from '../Api'
 
 export default class Router extends React.Component {
   render() {
@@ -33,7 +34,13 @@ export default class Router extends React.Component {
     }
   }
   
-  logIn = () => {
-    this.props.googleAuth.signIn()
+  logIn = async () => {
+    // wait until the user completes their sign in before continuing.
+    const user = await this.props.googleAuth.signIn()
+    // ^ if the user exits early, the function throws an exception
+    // and the rest of the function is not run
+    Api.logIn(user)
+    // log in, then redirect to home page
+    window.location = '/home'
   }
 }

@@ -81,17 +81,16 @@ export default class Home extends React.Component {
         },
       },
     })
-    Api.saveSentMessage({
-      message: this.state.message,
-      currentUser: this.props.currentUser,
+    sendMessage.execute((response) => {
+      if (response.error) {
+        this.setState({ error: response.error })
+        return
+      }
+      Api.saveSentMessage({
+        message: this.state.message,
+        currentUser: this.props.currentUser,
+      })
     })
-    // sendMessage.execute((response) => {
-    //   if (response.error) {
-    //     this.setState({ error: response.error })
-    //     return
-    //   }
-    //   Api.saveSentMessage(this.state.message)
-    // })
     
     
     this.setState({ message: '' })
