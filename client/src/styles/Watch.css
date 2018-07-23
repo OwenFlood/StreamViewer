@@ -2,3 +2,8 @@
   overflow: scroll;
   max-height: 250px;
 }
+
+.video-info-row {
+  text-align: left;
+  padding-bottom: 30px;
+}

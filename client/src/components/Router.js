@@ -1,6 +1,7 @@
 import React from 'react'
 import Home from './Home'
 import Watch from './Watch'
+import Stats from './Stats'
 import Api from '../Api'
 
 export default class Router extends React.Component {
@@ -29,6 +30,8 @@ export default class Router extends React.Component {
         return <Home currentUser={this.props.currentUser} />
       case '/watch':
         return <Watch currentUser={this.props.currentUser} />
+      case '/stats':
+        return <Stats currentUser={this.props.currentUser} />
       default:
         console.log("BYE");
     }

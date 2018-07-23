@@ -19,7 +19,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <Grid>
-        <PageHeader style={{textAlign: 'left'}}>
+        <PageHeader className="page-header-left">
           Currently Live
         </PageHeader>
         {this.renderVideos()}

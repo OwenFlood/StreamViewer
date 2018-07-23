@@ -14,7 +14,7 @@ export default class Home extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      videos: [],
+      videoInfo: {},
       chatMessages: [],
       message: '',
       currentChatId: null,
@@ -30,8 +30,8 @@ export default class Home extends React.Component {
   render() {
     return (
       <Grid>
-        <PageHeader style={{textAlign: 'left'}}>
-          Your Stream
+        <PageHeader className="page-header-left">
+          {this.state.videoInfo.title}
         </PageHeader>
         {this.state.error && (<Alert bsStyle="warning">Something Went Wrong</Alert>)}
         <Row>
@@ -56,6 +56,21 @@ export default class Home extends React.Component {
               />
             </form>
           </Col>
+        </Row>
+        <Row className="video-info-row">
+          <PageHeader>
+            <small>Video Info</small>
+          </PageHeader>
+          <a href={`/stats?id=${this.streamId}`}>
+            See Video Stats
+          </a>
+
+          <div>
+            <strong>Description</strong>
+            <div>
+              {this.state.videoInfo.description}
+            </div>
+          </div>
         </Row>
       </Grid>
     )
@@ -88,12 +103,11 @@ export default class Home extends React.Component {
       }
       Api.saveSentMessage({
         message: this.state.message,
+        videoId: this.streamId,
         currentUser: this.props.currentUser,
-      })
+      }, () => this.setState({ message: '' }))
+      // ^wait until the message is saved, then clear state
     })
-    
-    
-    this.setState({ message: '' })
   }
   
   listenToChatScroll = () => {
@@ -115,13 +129,14 @@ export default class Home extends React.Component {
     
     // fetching the live stream object
     const currentStream = window.gapi.client.youtube.videos.list({
-      part: 'liveStreamingDetails',
+      part: 'snippet,liveStreamingDetails',
       id: this.streamId,
     })
     currentStream.execute(({ items: videos }) => {
       // save the chatId for fetching, then begin live chat loop
       this.setState({
         currentChatId: videos[0].liveStreamingDetails.activeLiveChatId,
+        videoInfo: videos[0].snippet
       }, this.listenToLiveChat)
     })
   }

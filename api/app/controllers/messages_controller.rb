@@ -4,6 +4,7 @@ class MessagesController < ApplicationController
   def create
     Message.create(
       text: params[:message],
+      video_id: params[:video_id],
       user_id: @user.id,
     )
     

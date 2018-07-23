@@ -17,17 +17,25 @@ const Api = {
       }
     })
   },
-  saveSentMessage: ({ message, currentUser: current_user }) => {
+  saveSentMessage: ({ message, videoId: video_id, currentUser: current_user }, callback) => {
     fetch(`${endPoint}/messages`, {
       method: 'POST',
       body: JSON.stringify({
         message,
+        video_id,
         current_user: current_user.w3.U3,
       }),
       headers: {
         'Content-Type': 'application/json'
       }
-    })
+    }).then(callback)
   },
+  getVideoStats: ({ videoId, filter }, callback) => {
+    fetch(
+      `${endPoint}/stats?video_id=${videoId}&filter=${filter}`,
+    ).then((response) => (
+      response.json()
+    )).then(callback)
+  }
 }
 export default Api

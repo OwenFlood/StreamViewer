@@ -1,0 +1,1430 @@
+Started GET "/stats?id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:06:08 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/stats"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/stats?id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:06:42 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/stats"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/stats?id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:07:18 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/stats"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/stats?id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:08:05 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/stats"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/stats?id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:08:32 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/stats"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/stats?id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:10:22 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/stats"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/stats?id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:11:30 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/stats"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/stats?id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:11:56 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/stats"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/stats?id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:12:05 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/stats"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+rack-cors (0.4.0) lib/rack/cors.rb:80:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/stats?id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:14:32 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StatsController#index as */*
+  Parameters: {"id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" IS NULL[0m
+Completed 200 OK in 17ms (Views: 8.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/stats?id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:15:02 -0700
+Processing by StatsController#index as */*
+  Parameters: {"id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" IS NULL[0m
+Completed 200 OK in 23505ms (Views: 14.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:15:36 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 9223ms (Views: 5.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:15:53 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/messages" for ::1 at 2018-07-23 11:16:04 -0700
+Processing by MessagesController#create as */*
+  Parameters: {"message"=>"", "video_id"=>"jgMfYgsRvQ8", "current_user"=>"owenhflood@gmail.com"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "owenhflood@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "messages" ("text", "user_id", "created_at", "updated_at", "video_id") VALUES (?, ?, ?, ?, ?)[0m  [["text", ""], ["user_id", 2], ["created_at", "2018-07-23 18:16:04.641060"], ["updated_at", "2018-07-23 18:16:04.641060"], ["video_id", "jgMfYgsRvQ8"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 67ms (Views: 0.2ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:16:12 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/messages" for ::1 at 2018-07-23 11:16:47 -0700
+Processing by MessagesController#create as */*
+  Parameters: {"message"=>"", "video_id"=>"jgMfYgsRvQ8", "current_user"=>"owenhflood@gmail.com"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "owenhflood@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "messages" ("text", "user_id", "created_at", "updated_at", "video_id") VALUES (?, ?, ?, ?, ?)[0m  [["text", ""], ["user_id", 2], ["created_at", "2018-07-23 18:16:47.418331"], ["updated_at", "2018-07-23 18:16:47.418331"], ["video_id", "jgMfYgsRvQ8"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 71726ms (Views: 3.4ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/messages" for ::1 at 2018-07-23 11:18:11 -0700
+Processing by MessagesController#create as */*
+  Parameters: {"message"=>"", "video_id"=>"jgMfYgsRvQ8", "current_user"=>"owenhflood@gmail.com"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "owenhflood@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "messages" ("text", "user_id", "created_at", "updated_at", "video_id") VALUES (?, ?, ?, ?, ?)[0m  [["text", ""], ["user_id", 2], ["created_at", "2018-07-23 18:18:11.471564"], ["updated_at", "2018-07-23 18:18:11.471564"], ["video_id", "jgMfYgsRvQ8"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 34ms (Views: 0.2ms | ActiveRecord: 4.9ms)
+
+
+Started POST "/messages" for ::1 at 2018-07-23 11:18:37 -0700
+Processing by MessagesController#create as */*
+  Parameters: {"message"=>"1", "video_id"=>"jgMfYgsRvQ8", "current_user"=>"owenhflood@gmail.com"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "owenhflood@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (1.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "messages" ("text", "user_id", "created_at", "updated_at", "video_id") VALUES (?, ?, ?, ?, ?)[0m  [["text", "1"], ["user_id", 2], ["created_at", "2018-07-23 18:18:37.456324"], ["updated_at", "2018-07-23 18:18:37.456324"], ["video_id", "jgMfYgsRvQ8"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 10ms (Views: 0.2ms | ActiveRecord: 3.4ms)
+
+
+Started POST "/messages" for ::1 at 2018-07-23 11:18:38 -0700
+Processing by MessagesController#create as */*
+  Parameters: {"message"=>"1", "video_id"=>"jgMfYgsRvQ8", "current_user"=>"owenhflood@gmail.com"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "owenhflood@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "messages" ("text", "user_id", "created_at", "updated_at", "video_id") VALUES (?, ?, ?, ?, ?)[0m  [["text", "1"], ["user_id", 2], ["created_at", "2018-07-23 18:18:38.902010"], ["updated_at", "2018-07-23 18:18:38.902010"], ["video_id", "jgMfYgsRvQ8"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 7ms (Views: 0.2ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/messages" for ::1 at 2018-07-23 11:20:05 -0700
+Processing by MessagesController#create as */*
+  Parameters: {"message"=>"1", "video_id"=>"jgMfYgsRvQ8", "current_user"=>"owenhflood@gmail.com"}
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "owenhflood@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (4.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "messages" ("text", "user_id", "created_at", "updated_at", "video_id") VALUES (?, ?, ?, ?, ?)[0m  [["text", "1"], ["user_id", 2], ["created_at", "2018-07-23 18:20:05.717498"], ["updated_at", "2018-07-23 18:20:05.717498"], ["video_id", "jgMfYgsRvQ8"]]
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 51ms (Views: 3.0ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:20:24 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 29ms (Views: 18.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:24:06 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (1.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 29ms (Views: 19.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:24:48 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (1.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 6ms (Views: 3.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:25:53 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (3.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 40ms (Views: 31.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:26:21 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.9ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 16ms (Views: 9.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:26:45 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (2.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:27:40 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (3.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 23ms (Views: 18.6ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:28:04 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (2.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 47ms (Views: 26.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:28:26 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:31:45 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:34:03 -0700
+Completed 200 OK in 144079ms (Views: 4.6ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:34:19 -0700
+Processing by StatsController#index as */*
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mMessage Load (0.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 38ms (Views: 0.9ms | ActiveRecord: 3.0ms)
+
+
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 41ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:35:42 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 19ms (Views: 1.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:35:58 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (3.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 27ms (Views: 3.1ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:37:17 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (2.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 38ms (Views: 0.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:38:50 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 63ms (Views: 13.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:39:42 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (1.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 169ms (Views: 0.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:40:04 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (1.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 18ms (Views: 3.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:40:22 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.9ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 15ms (Views: 1.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:41:15 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 17ms (Views: 2.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:41:43 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 18ms (Views: 1.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:42:05 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 15ms (Views: 2.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:42:47 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (1.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 50ms (Views: 3.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:43:48 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.9ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 25ms (Views: 2.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:43:59 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 30ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8" for ::1 at 2018-07-23 11:44:13 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8"}
+  [1m[36mMessage Load (1.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 33ms (Views: 7.0ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 11:44:43 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 15ms (Views: 2.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=dog" for ::1 at 2018-07-23 11:44:49 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"dog"}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 51ms (Views: 17.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 11:47:44 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (1.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text ILIKE '%%' OR users.email ILIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT  "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text ILIKE '%%' OR users.email ILIKE '%%') LIMIT ?[0m  [["video_id", "jgMfYgsRvQ8"], ["LIMIT", 11]]
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id"[0m
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."video_id" = ?[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE (text ILIKE '')[0m
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT  "messages".* FROM "messages" WHERE (text ILIKE '') LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE (text ILIKE '%%')[0m
+  [1m[36mMessage Load (0.9ms)[0m  [1m[34mSELECT  "messages".* FROM "messages" WHERE (text ILIKE '%%') LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE (text ILIKE '%1%')[0m
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT  "messages".* FROM "messages" WHERE (text ILIKE '%1%') LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT  "messages".* FROM "messages" ORDER BY "messages"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."text" = ?[0m  [["text", "1"]]
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE (text ILIKE '1')[0m
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT  "messages".* FROM "messages" WHERE (text ILIKE '1') LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE (text = '1')[0m
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE (text ILIKE '1')[0m
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT  "messages".* FROM "messages" WHERE (text ILIKE '1') LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mMessage Load (0.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE (text LIKE '1')[0m
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE (text LIKE '')[0m
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE (text LIKE '%%')[0m
+  [1m[36mCACHE Message Load (0.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE (text LIKE '1')[0m
+  [1m[36mMessage Load (3.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE (user.email LIKE '%owen%')[0m
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT  "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE (user.email LIKE '%owen%') LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE (users.email LIKE '%owen%')[0m
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text ILIKE '%%' OR users.email ILIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 500 Internal Server Error in 278938ms (ActiveRecord: 14.4ms)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::SQLException: near "ILIKE": syntax error: SELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text ILIKE '%%' OR users.email ILIKE '%%')):
+  
+app/controllers/stats_controller.rb:13:in `map'
+app/controllers/stats_controller.rb:13:in `index'
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 11:52:29 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 11722ms (Views: 2.4ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=1" for ::1 at 2018-07-23 11:52:53 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"1"}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%1%' OR users.email LIKE '%1%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 66ms (Views: 0.4ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owen" for ::1 at 2018-07-23 11:52:57 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owen"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owen%' OR users.email LIKE '%owen%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 9ms (Views: 0.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 11:54:28 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (2.9ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 45ms (Views: 9.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=1" for ::1 at 2018-07-23 11:54:29 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"1"}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%1%' OR users.email LIKE '%1%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 14ms (Views: 1.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 11:54:31 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 16ms (Views: 1.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=o" for ::1 at 2018-07-23 11:54:32 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"o"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%o%' OR users.email LIKE '%o%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 17ms (Views: 0.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=ow" for ::1 at 2018-07-23 11:54:32 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"ow"}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%ow%' OR users.email LIKE '%ow%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 13ms (Views: 0.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owe" for ::1 at 2018-07-23 11:54:32 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owe"}
+  [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owe%' OR users.email LIKE '%owe%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 78ms (Views: 0.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owen" for ::1 at 2018-07-23 11:54:32 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owen"}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owen%' OR users.email LIKE '%owen%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 10ms (Views: 0.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owens" for ::1 at 2018-07-23 11:54:35 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owens"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owens%' OR users.email LIKE '%owens%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owen" for ::1 at 2018-07-23 11:54:36 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owen"}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owen%' OR users.email LIKE '%owen%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 8ms (Views: 0.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owend" for ::1 at 2018-07-23 11:54:36 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owend"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owend%' OR users.email LIKE '%owend%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owen" for ::1 at 2018-07-23 11:54:37 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owen"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owen%' OR users.email LIKE '%owen%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 8ms (Views: 1.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owenf" for ::1 at 2018-07-23 11:54:37 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owenf"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owenf%' OR users.email LIKE '%owenf%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owen" for ::1 at 2018-07-23 11:54:37 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owen"}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owen%' OR users.email LIKE '%owen%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=oweng" for ::1 at 2018-07-23 11:54:38 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"oweng"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%oweng%' OR users.email LIKE '%oweng%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 2ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owen" for ::1 at 2018-07-23 11:54:39 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owen"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owen%' OR users.email LIKE '%owen%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 21ms (Views: 0.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owe" for ::1 at 2018-07-23 11:54:39 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owe"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owe%' OR users.email LIKE '%owe%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=ow" for ::1 at 2018-07-23 11:54:39 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"ow"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%ow%' OR users.email LIKE '%ow%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=o" for ::1 at 2018-07-23 11:54:40 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"o"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%o%' OR users.email LIKE '%o%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 11:54:40 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 12ms (Views: 1.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=1" for ::1 at 2018-07-23 11:54:40 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"1"}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%1%' OR users.email LIKE '%1%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 11:54:41 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 11:56:09 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 32ms (Views: 2.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=a" for ::1 at 2018-07-23 11:56:14 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"a"}
+  [1m[36mMessage Load (1.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%a%' OR users.email LIKE '%a%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 20ms (Views: 2.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=as" for ::1 at 2018-07-23 11:56:14 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"as"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%as%' OR users.email LIKE '%as%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 3ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=asd" for ::1 at 2018-07-23 11:56:14 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"asd"}
+  [1m[36mMessage Load (0.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%asd%' OR users.email LIKE '%asd%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 11:58:24 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 33ms (Views: 5.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 11:58:27 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (2.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 35ms (Views: 6.1ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=1" for ::1 at 2018-07-23 11:58:36 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"1"}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%1%' OR users.email LIKE '%1%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 10ms (Views: 1.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 11:58:46 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (1.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 33ms (Views: 3.8ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 11:58:48 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 54ms (Views: 4.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=1" for ::1 at 2018-07-23 11:58:56 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"1"}
+  [1m[36mMessage Load (2.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%1%' OR users.email LIKE '%1%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 38ms (Views: 2.9ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owe" for ::1 at 2018-07-23 11:59:47 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owe"}
+  [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owe%' OR users.email LIKE '%owe%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 36ms (Views: 6.5ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:00:07 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (1.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 45ms (Views: 2.1ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owe" for ::1 at 2018-07-23 12:00:12 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owe"}
+  [1m[36mMessage Load (2.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owe%' OR users.email LIKE '%owe%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 21ms (Views: 6.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:01:27 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (1.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (7.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 95ms (Views: 7.0ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owe" for ::1 at 2018-07-23 12:01:33 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owe"}
+  [1m[36mMessage Load (2.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owe%' OR users.email LIKE '%owe%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 17ms (Views: 2.2ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:01:42 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 38ms (Views: 8.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:01:44 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.9ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 61ms (Views: 6.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owe" for ::1 at 2018-07-23 12:01:46 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owe"}
+  [1m[36mMessage Load (2.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owe%' OR users.email LIKE '%owe%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 27ms (Views: 1.7ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:02:05 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (4.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 100ms (Views: 18.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owe" for ::1 at 2018-07-23 12:02:09 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owe"}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owe%' OR users.email LIKE '%owe%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (2.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 42ms (Views: 0.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:02:20 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 70ms (Views: 5.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owe" for ::1 at 2018-07-23 12:02:25 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owe"}
+  [1m[36mMessage Load (2.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owe%' OR users.email LIKE '%owe%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 21ms (Views: 0.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:03:20 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (37.1ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 96ms (Views: 7.3ms | ActiveRecord: 37.4ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:03:21 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.9ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 97ms (Views: 55.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owe" for ::1 at 2018-07-23 12:03:24 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owe"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owe%' OR users.email LIKE '%owe%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 27ms (Views: 1.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:03:33 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (2.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 41ms (Views: 4.6ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:07:12 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (5.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 87ms (Views: 7.8ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:08:27 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (5.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 124ms (Views: 4.9ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owe" for ::1 at 2018-07-23 12:08:31 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owe"}
+  [1m[36mMessage Load (1.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owe%' OR users.email LIKE '%owe%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 53ms (Views: 29.5ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:09:08 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (4.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 59ms (Views: 10.3ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owe" for ::1 at 2018-07-23 12:09:14 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owe"}
+  [1m[36mMessage Load (2.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owe%' OR users.email LIKE '%owe%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (2.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 69ms (Views: 7.0ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owen" for ::1 at 2018-07-23 12:09:19 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owen"}
+  [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owen%' OR users.email LIKE '%owen%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 120ms (Views: 57.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:10:05 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (2.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (8.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 144ms (Views: 18.2ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owen" for ::1 at 2018-07-23 12:10:10 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owen"}
+  [1m[36mMessage Load (2.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owen%' OR users.email LIKE '%owen%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 48ms (Views: 3.1ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=1" for ::1 at 2018-07-23 12:10:23 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"1"}
+  [1m[36mMessage Load (1.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%1%' OR users.email LIKE '%1%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 25ms (Views: 2.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:10:25 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (2.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 29ms (Views: 3.1ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=owens" for ::1 at 2018-07-23 12:10:28 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>"owens"}
+  [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%owens%' OR users.email LIKE '%owens%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/stats?video_id=jgMfYgsRvQ8&filter=" for ::1 at 2018-07-23 12:11:46 -0700
+Processing by StatsController#index as */*
+  Parameters: {"video_id"=>"jgMfYgsRvQ8", "filter"=>""}
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" INNER JOIN "users" ON "users"."id" = "messages"."user_id" WHERE "messages"."video_id" = ? AND (text LIKE '%%' OR users.email LIKE '%%')[0m  [["video_id", "jgMfYgsRvQ8"]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (2.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 104ms (Views: 3.7ms | ActiveRecord: 4.1ms)
+
+

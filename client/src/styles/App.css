@@ -21,11 +21,3 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
-
-.live-circle {
-  display: inline-block;
-  height: 23px;
-  width: 23px;
-  background-color: #FF3815;
-  border-radius: 50%;
-}
