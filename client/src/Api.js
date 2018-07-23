@@ -1,6 +1,6 @@
 let endPoint
 if (process.env.NODE_ENV === 'production') {
-  endPoint = 'im an end point'
+  endPoint = 'https://stream-viewer.herokuapp.com'
 } else {
   endPoint = 'http://localhost:3051'
 }

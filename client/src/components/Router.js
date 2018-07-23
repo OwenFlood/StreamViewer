@@ -33,7 +33,7 @@ export default class Router extends React.Component {
       case '/stats':
         return <Stats currentUser={this.props.currentUser} />
       default:
-        console.log("BYE");
+        window.location = '/home'
     }
   }
   

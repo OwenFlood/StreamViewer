@@ -62,7 +62,6 @@ export default class Home extends React.Component {
   getYouTubeLiveStreams = () => {
     // load the youtube api into the gapi client
     window.gapi.client.load('youtube', 'v3', (response) => {
-      console.log(response);
       // after the client is loaded, execute the search
       const searchRequest = window.gapi.client.youtube.search.list({
         part: 'snippet',
