@@ -70,8 +70,9 @@ export default class Home extends React.Component {
         eventType: 'live',
       })
       // set state with videos returned from api
-      searchRequest.execute(({ items: videos }) => {
-        this.setState({ videos })
+      searchRequest.execute((result) => {
+        console.log('result', result);
+        this.setState({ videos: result.items })
       })
     })
   }
