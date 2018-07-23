@@ -1,6 +1,10 @@
 import React from 'react'
 import '../styles/App.css'
-import { Navbar } from 'react-bootstrap'
+import {
+  Navbar,
+  Nav,
+  NavItem,
+} from 'react-bootstrap'
 import _get from 'lodash/get'
 import Router from './Router'
 
@@ -30,8 +34,13 @@ export default class App extends React.Component {
                 StreamViewer
               </a>
             </Navbar.Brand>
-            {_get('this.state.currentUser', 'w3.ig')}
           </Navbar.Header>
+
+          <Navbar.Collapse>
+            <Nav pullRight>
+              {this.renderSignedIn()}
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
         {this.renderMain()}
       </div>
@@ -40,12 +49,27 @@ export default class App extends React.Component {
   
   renderMain = () => (
     this.state.loading ?
-      <div>I'm loading!</div> :
+      <div>Loading...</div> :
       <Router
         key={this.state.locationChange}
         googleAuth={this.state.googleAuth}
         currentUser={this.state.currentUser} />
   )
+  
+  renderSignedIn = () => {
+    if (window.gapi && window.gapi.auth2.getAuthInstance().isSignedIn.Ab) {
+      return (
+        <NavItem onClick={this.signOut}>
+          Sign Out
+        </NavItem>
+      )
+    }
+  }
+  
+  signOut = () => {
+    window.gapi.auth2.getAuthInstance().disconnect()
+    window.location = '/home'
+  }
   
   initGapi = () => {
     // create a script tag that loads gapi

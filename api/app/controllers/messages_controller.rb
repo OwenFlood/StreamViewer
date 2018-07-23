@@ -3,7 +3,7 @@ class MessagesController < ApplicationController
 
   def create
     Message.create(
-      message: params[:message],
+      text: params[:message],
       user_id: @user.id,
     )
     
@@ -13,6 +13,6 @@ class MessagesController < ApplicationController
   private
   
   def find_user
-    @user ||= User.find_by_email(params[:email])
+    @user ||= User.find_by_email(params[:current_user])
   end
 end

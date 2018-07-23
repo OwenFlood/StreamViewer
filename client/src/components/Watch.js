@@ -35,14 +35,14 @@ export default class Home extends React.Component {
         </PageHeader>
         {this.state.error && (<Alert bsStyle="warning">Something Went Wrong</Alert>)}
         <Row>
-          <Col xs={12} md={6}>
+          <Col xs={12} md={6} style={{ height: 390 }}>
             <iframe
-              width="420"
-              height="315"
+              width="100%"
+              height="100%"
               src={`https://www.youtube.com/embed/${this.streamId}`}
             />
           </Col>
-          <Col className="well" style={{ textAlign: 'left' }} xs={12} md={6}>
+          <Col className="well" style={{ textAlign: 'left', marginBottom: '0px' }} xs={12} md={6}>
             <h3><strong>Live Chat</strong></h3>
             <ul id="live-chat">
               {this.renderChatMessages()}
