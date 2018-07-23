@@ -34,6 +34,7 @@ export default class Router extends React.Component {
         return <Stats currentUser={this.props.currentUser} />
       default:
         window.location = '/home'
+        console.log("Where do you think you're going")
     }
   }
   

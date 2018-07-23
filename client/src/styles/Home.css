@@ -1,0 +1,10 @@
+.thumbnail-title { 
+  font-size: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.font-light {
+  font-weight: 300;
+}

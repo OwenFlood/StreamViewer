@@ -79,7 +79,7 @@ export default class Home extends React.Component {
   renderChatMessages = () => (
     this.state.chatMessages.map(({ author, message }, index) => (
       <div key={index}>
-        <span style={{ fontWeight: 300 }}>{author}</span>: {message}
+        <span className="font-light">{author}</span>: {message}
       </div>
     ))
   )

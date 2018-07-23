@@ -5,7 +5,6 @@ import {
   Nav,
   NavItem,
 } from 'react-bootstrap'
-import _get from 'lodash/get'
 import Router from './Router'
 
 export default class App extends React.Component {
@@ -24,7 +23,6 @@ export default class App extends React.Component {
   }
   
   render() {
-    console.log('current user: ', this.state.currentUser);
     return (
       <div className="App">
         <Navbar>
@@ -107,10 +105,8 @@ export default class App extends React.Component {
   updateSigninStatus = (isSignedIn) => {
     if (isSignedIn) {
       this.setState({ isSignedIn })
-      console.log('logged in');
     } else {
       this.setState({ isSignedIn })
-      console.log('not logged in');
     }
   }
   

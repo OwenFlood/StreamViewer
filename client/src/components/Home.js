@@ -38,23 +38,18 @@ export default class Home extends React.Component {
         </Col>
         <Col xs={12} md={4}>
           <div style={{ textAlign: 'left' }}>
-            <div style={{ fontSize: 20, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+            <div className="thumbnail-title">
               <a href={`/watch?id=${id.videoId}`}>
                 <strong>{snippet.title}</strong>
               </a>
             </div>
             <div>
-              Channel: <span style={{ fontWeight: 300 }}>{snippet.channelTitle}</span>
+              Channel: <span className="font-light">{snippet.channelTitle}</span>
             </div>
-            Description: <span style={{ fontWeight: 300 }}>{snippet.description}</span>
+            Description: <span className="font-light">{snippet.description}</span>
           </div>
         </Col>
         <Col xs={12} md={4} />
-        {/* <iframe
-          width="420"
-          height="315"
-          src={`https://www.youtube.com/embed/${id.videoId}`}
-        /> */}
       </Row>
     ))
   }
@@ -70,9 +65,8 @@ export default class Home extends React.Component {
         eventType: 'live',
       })
       // set state with videos returned from api
-      searchRequest.execute((result) => {
-        console.log('result', result);
-        this.setState({ videos: result.items })
+      searchRequest.execute(({ items: videos }) => {
+        this.setState({ videos })
       })
     })
   }
